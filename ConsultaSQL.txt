@@ -6,3 +6,11 @@ DEFAULT TABLESPACE "USERS"
 DEFAULT TABLESCAPE "TEMP";
 
 GRANT ALL PRIVILEGES TO SIGU_FLOR;
+
+-- Creacion de tabla
+create table curso(
+	idcurso number primary key,
+	nombre	varchar2(50) not null,
+	estado 	varchar2(1)
+);
+
